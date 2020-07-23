@@ -1,7 +1,7 @@
 @prefix lv2: <http://lv2plug.in/ns/lv2core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://github.com/REIS0/eg-amp-plugin> 
+<https://github.com/REIS0/rust-lv2-learn/tree/master/amp> 
     a lv2:Plugin ;
     lv2:binary <libamp.so> ;
     rdfs:seeAlso <amp.ttl> .

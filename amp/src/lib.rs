@@ -7,7 +7,7 @@ struct Ports {
     output: OutputPort<Audio>,
 }
 
-#[uri("https://github.com/REIS0/eg-amp-plugin")]
+#[uri("https://github.com/REIS0/rust-lv2-learn/tree/master/amp")]
 struct Amp;
 
 impl Plugin for Amp {
